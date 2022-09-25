@@ -7,6 +7,11 @@
 
 
 tempoConfitebor = \tempoMarkup "Allegro"
+  tempoConfiteborB = \tempoMarkup "Allegro"
+  tempoConfiteborC = \tempoMarkup "[Allegro]"
+  tempoConfiteborD = \tempoMarkup "Adagio"
+  tempoConfiteborE = \tempoMarkup "[Larghetto]"
+  tempoConfiteborF = \tempoMarkup "[Allegro]"
 
 
 \include "notes/ob1.ly"
