@@ -1,0 +1,36 @@
+composer:
+  last: Poppe
+  first: František Ludvík
+title: Vesperæ
+genre: vesper
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 clno (D), timp (D–A), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-Dl
+    shelfmark: Mus.3610-D-2
+    date: 1725–1733
+    rism: 212007594
+    url: https://digital.slub-dresden.de/id434533327
+    license: public domain
+    principal: true
+    notes: Confitebor, Beatus vir
+  B2:
+    siglum: D-Dl
+    shelfmark: Mus.3610-D-4
+    date: 1725–1733
+    rism: 212007597
+    url: https://digital.slub-dresden.de/id434533319
+    license: public domain
+    notes: Laudate pueri, Laudate Dominum
+  B3:
+    siglum: D-Dl
+    shelfmark: Mus.3610-E-1
+    date: 1725–1733
+    rism: 212007600
+    url: https://digital.slub-dresden.de/id434533343
+    license: public domain
+    notes: Magnificat
+imslp:
+parts:
+  ottoni: Clarino I, II in D\\Timpani in D–A
