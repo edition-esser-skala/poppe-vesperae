@@ -134,3 +134,71 @@ ConfiteborViolinoII = {
     r8 a a4-! a-! r\fermata \bar "|." %134 finis
   }
 }
+
+BeatusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \dorian \time 4/4 \tempoBeatus
+    r8 b'\fE b, b' b, b' a a,
+    b d' d, d' a, a' a, b
+    c c' d, a' b4 r
+    r d2 c4
+    b8 b b b a c b a %5
+    g4 r8 a b4 r8 e!
+    cis e f4 r8 d d, cis'
+    d f f, f' es g r fis
+    g, b d, b' r b a d
+    b g r4 r8 b\p d4~ %10
+    d8 c4 b8 a4 r8 cis
+    a b a g f d r4
+    r2 r4 c'8 d
+    d d16 d d8 d es es d-! d-!
+    r d d, d' d, d' r4 %15
+    R1
+    r4 r8 d c c16 c c8 f
+    e f16 d c8. c16 c4 r
+    a r8 fis d4 r
+    r2 a'4 r8 e %20
+    d4 r r2
+    r8 d'\fE d c d16 es d es d8 c
+    d16 d d d d d d d d d d d es es es es
+    a, a a a d d d d g, g g g c c c c
+    a8 b b8. a16 b8 d d c %25
+    d d16 d es8 es d d16 d c8-! c-!
+    R1
+    r4 g8.\p g16 a8 a, r4
+    f''16\f g e g f g e g f8 c e8.(\trill d32 e)
+    f8 f, d' d16 c h8 h c c16 d %30
+    e8 f f8. e16 f8 f, r4
+    d'16 d d d d d d d d d d d d d d d
+    c8 b b8. a16 b8 b,\p a a'
+    b f f8. f16 f8 b, r4
+    R1*2 %36
+    a'8\p a g g c c d b
+    g16 a b8 c c d16 d\f b b a c c c
+    b b es es f8 f16 f es8 c b a!
+    b16 c b c c8 c16 b f'8-! f-! r d %40
+    h16 h h h e f e d cis8 cis d16 d d d
+    e8 f16 g a8 r16 a f f a f b8-! a-!
+    b16 c b a g8 a b8. a16 g8 g
+    fis d16 c b a g b es8 d d8. c16
+    b4-! r\fermata \tempoBeatusB r2 %45
+    R1
+    r4 \tempoBeatusC r16 es\f-! es-! es-! d d es es d d es es
+    d8 es r16 es es es d d d d c b c a
+    h8 h c8. c16 h8-! c-! r16 es es es
+    g8. g16 e4 f4. f8 %50
+    e f16 f \parOn e8-\parenthesize-! \parOff f-\parenthesize-! r2\fermata
+    r8 b, b, b' a, a' a, d'
+    es d c es a, d b g
+    r4 d'16 d d c b b b b d d f f
+    cis8. cis16 cis8 d d d d8. cis16 %55
+    d d d d d d d d es8 es d16 a d c
+    b b b b d d d d es8 es d8. fis16
+    g8 g, b d g, d f! a
+    d, b d f b, b' a e'
+    a, b16 a g8 fis g4 r %60
+    \tempoBeatusD es2. d8 c
+    d1\fermata \bar "|." %62 finis
+  }
+}

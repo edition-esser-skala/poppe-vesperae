@@ -12,6 +12,10 @@ tempoConfitebor = \tempoMarkup "Allegro"
   tempoConfiteborD = \tempoMarkup "Adagio"
   tempoConfiteborE = \tempoMarkup "[Larghetto]"
   tempoConfiteborF = \tempoMarkup "[Allegro]"
+tempoBeatus = \tempoMarkup "Vivace"
+  tempoBeatusB = \tempoMarkup "Adagio"
+  tempoBeatusC = \tempoMarkup "Allegro"
+  tempoBeatusD = \tempoMarkup "Adagio"
 
 
 \include "notes/ob1.ly"

@@ -284,3 +284,137 @@ ConfiteborBassFigures = \figuremode {
   r8 <_+>4. <_->2
   <6>8 <_!> <_+>2. %134 finis
 }
+
+BeatusOrgano = {
+  \relative c {
+    \clef bass
+    \key g \dorian \time 4/4 \tempoBeatus
+    \mvTr g2\fE-\tuttiE es4 f
+    b r8 b f'4 r8 g
+    c,4 d g,2
+    d' g,4 a
+    b8 c d es f4 g %5
+    es f b, r8 g
+    a4 f g8 d' a4
+    d r8 b c4 r8 d
+    es4 r8 b c4 d
+    g, \mvTr fis'\p-\soloE g f? %10
+    es c d cis
+    d8 g, a4 d g
+    f8 f16 d c8 f b,4 a
+    g f! es' b
+    fis8 g d' d, g b a4 %15
+    b a g es'8 f
+    b,4 h c8 c16 b? a8 f
+    g a16 b c4 f es
+    d2 r4 r8 d
+    es d es h c4 r8 cis %20
+    d4 b8 g d'4 g,
+    \mvTr b\fE-\tuttiE b8 f b4 b8 f
+    b b' b, b' b,4-\soloE es
+    f d g c,
+    f8 b,^\critnote f' f, b4 r8 f-\tuttiE %25
+    b4 es b f8 f'16 es
+    \mvTr d8\p-\solo b es f g a b a
+    g f c c, f4 r
+    \mvTr f'8\fE-\tutti c f c f4 c
+    r8 f b,4 r8 g c a %30
+    g f c' c, f4 r
+    b16 b' b, b' b, b' b, b' b, b' b, b' b, b' b, b'
+    c,8 d es f b,4 \mvTr a\pE-\solo
+    b f' b, b8 a
+    g4 f e! f %35
+    c' f8 es d c b4
+    f' g a b8 b,
+    c d es f b, \mvTr g\fE-\tuttiE fis' e16 fis
+    g8 es d c16 d es8 es d c
+    r b a! a16 g f4 fis8 r %40
+    r g e!4 r8 a' f!4
+    g8 a16 b a8 a, d4 g,8 fis
+    g d' b a g8. a16 b8 c
+    d4 es8 es c g d' d,
+    g4-! r\fermata \tempoBeatusB \mvTr es'2\pE-\solo %45
+    b4 h c2
+    g4 \tempoBeatusC r16 \mvTr es'\fE-\tutti g es b'8 g16 es b'8 g16 es
+    b8 es c4 b a16 g a d
+    g,4 es'8. c16 g8 c as4
+    g'2 f4. des8 %50
+    c des16 b c8 f, r2\fermata
+    g2 d'4. b8
+    c d es c d4 g,
+    r fis g f8 d
+    a'4. f8 g d a'4 %55
+    d b c d
+    es b c d
+    g,8 g' b d g, d f! a
+    d, b d f b, b' a g
+    f g b d g,,4 r %60
+    \tempoBeatusD c2 g
+    g1\fermata \bar "|." %62 finis
+  }
+}
+
+BeatusBassFigures = \figuremode {
+  r2 <6 5>
+  r2 <4>8 <3>4.
+  <_->4 <4>8 <_+> r2
+  <4>4 <_!> <6- 5> <7 5->8 <6 \t>
+  r1 %5
+  <6 5>4 <4>8 <3> r4. <6!>8
+  <_+>4 <6> q <4>8 <_+>
+  r2 <9 _->4. <7 _+>8
+  <5>4. <6>8 <8 _!> <7 5> <4> <_+>
+  r4 <6>2 <6>4 %10
+  <7>8 <6> <8 6 _-> <7 5 \t> <_+>4 <6 _!>
+  <_!> <_+>2.
+  r8. <6>16 <_->2 <6\\>4
+  r <6>2 q4
+  q4 <4>8 <_+> r <5!> <6>4 %15
+  r <6>2.
+  r4 <6> <_!> <6>
+  q8 q <4> <3> r4 <6>
+  <_+>2.. q8
+  r4. <6>8 <6 _!>4. <\t \t>8 %20
+  <_+>4 <6> <_+>2
+  <5!>1
+  r
+  r2. <_->4
+  r <4>8 <3> r2 %25
+  r1
+  <6>
+  r4 <4>8 <_!> r2
+  r1
+  r2 r8 <_!>4 <6>8 %30
+  <6 _->4 <4>8 <3> r2
+  r1
+  <6 _->8 <6> <6 5>2 <6>4
+  r <4>8 <3>4. <4! 2>8 <6>
+  <7> <6>4. q2 %35
+  <4>8 <3>4 <2>8 <6 4> <6 _->4.
+  r4 <7>8 <6-> <6 5->2
+  <_->8 <6> <6 5>2 <6>4
+  r8 <5> <6> <6->16 <\t> <5>8 <6> q <6! _->
+  r4 <6>8. <6!>16 r4 <6> %40
+  r8 <_!> <5!>4. <_+>8 <6>4
+  <6 _!>8 <6 _+>16 <6> <4>8 <_+> r4 <_->8 <6>
+  r <_+> <6> <5!>16 <6\\> r4 <6>8 <_->
+  <_+>4 <5> <6 _-> <4>8 <_+>
+  r1 %45
+  <4->4 <6 5> <9 _-> <8 \t>
+  <_!> r16 <5->8. r8 <6->4 q8
+  r4 <_-> <6> <7>8 q16 <_+>
+  <_!>4 <6>8. <_->16 <_!>8 q <5->4
+  <6!>2 <_->4. <6>8 %50
+  <_!>8 <6>16 <_-> <_!>8 q r2
+  r <_+>4. <6>8
+  <_-> <7 _+> <5> <7 _-> <4> <_+>4.
+  r4 <6>2 <6>8 <_!>
+  <_+>4. <6>8 <6 5>4 <4>8 <_+> %55
+  <_+>4 <6> <9 _-> <7 _+>
+  <5> <6> <8 6 _->8 <7 5 \t> <4> <_+>
+  r4 <6>8 <_+>4 <_!>8 <6> <_+>
+  r <5> <6>2 <6>8 q
+  r <5> <6> <_+> r2 %60
+  <_-> <6- 4>4 <5 _!>8 <4 2>
+  <5 _!>1 %62 finis
+}

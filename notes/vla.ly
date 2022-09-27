@@ -98,3 +98,58 @@ ConfiteborViola = {
     f! d a'4 d, r\fermata \bar "|." %134 finis
   }
 }
+
+BeatusViola = {
+  \relative c' {
+    \clef alto
+    \key g \dorian \time 4/4 \tempoBeatus
+    d4\fE d8 d es4 c
+    b8 b b b c4 r8 g'
+    g4 r8 d d4 r
+    a'4. a8 g4. f8
+    f8. es16 d8 es f4 g %5
+    es f b, r8 b'
+    a g f d g d r a'
+    d, d' d, d' g,4 d
+    r8 es b g c,4 d
+    d r r2 %10
+    R1*11 %21
+    r8 b'\fE b' f b, f' b f
+    r b b, b' b,4 r8 es
+    f16 f f f a a a a d, d d d g g g g
+    f8 b,-\critnote f' f, b4 r8 f' %25
+    b b, es, es' b' b, f4
+    R1*2
+    f'8\fE^\critnote c f c f4 c
+    r8 f b,4 r8 g c a %30
+    g f c' c, f4 r
+    b16 b' b, b' b, b' b, b' b, b' b, b' b, b' b, b'
+    c,8 d es f b,4 r
+    R1*4 %37
+    r4 r8 f'\fE b, d d d
+    d b d c16 d es8 es d c
+    r b a a16 g f4 fis8 r %40
+    r g e!4 r8 a' f!4
+    g8 a16 b a8 a, d4 g,8 fis
+    g d' b a g8. a16 b8 c
+    d4 es8 es c g d' d,
+    g4-! r\fermata \tempoBeatusB r2 %45
+    R1
+    r4 \tempoBeatusC r16 es'\fE g es b'8 g16 es b'8 g16 es
+    b8 es c4 b a16 g a d
+    g,4 es'8. c16 g8 c as4
+    g16 g' g g b b b b as8 as, f' des %50
+    c des16 b c8 f, r2\fermata
+    r8 d' d d d d d d
+    c d es c d4 g,
+    r fis'16 fis fis fis g g g g f f d d
+    a'8 a, a' f g d e8. e16 %55
+    d a' a a b b b b g4 r8 d
+    g,16 es' es es d d d d c4 r8 a
+    b g' b d g, d f! a
+    d, b d f b, b' a g
+    f g b d g,4 r %60
+    \tempoBeatusD g,8 g g g g4. g8
+    g1\fermata \bar "|." %62 finis
+  }
+}

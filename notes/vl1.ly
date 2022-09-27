@@ -136,3 +136,71 @@ ConfiteborViolinoI = {
    f d' e4-! d-! r\fermata \bar "|." %134 finis
   }
 }
+
+BeatusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \dorian \time 4/4 \tempoBeatus
+    r8 g''\fE g, g' g, g' f f,
+    d f' f, f' f, f' f, es'~
+    es d16 es d8 fis r g g, b'
+    a4 d,2 c4
+    b8 b b b a4-! b-! %5
+    r8 g' f c d f d g
+    r e! a, a' d, f e8.\trill e16
+    d8 f f, f' es g r fis
+    g, g' g, g' a g g8. fis16
+    g4 r8 a\p g d a' d, %10
+    es4.\trill es8 d4 r8 e
+    f e16 d cis8.\trill d16 d4 g,8 g
+    a a16( b) c8( b16 a) b8-! b-! r fis'
+    g d a' d, g4 r8 g
+    a g g8. fis16 g4 r %15
+    R1
+    r4 r8 d e!16 f e g f e f a
+    g8 f f8. e16 f4 r
+    r8 d d, d' g,,4 r
+    r2 r8 e'' e, e' %20
+    a,,4 r r2
+    r8 f''\fE f f f16 g f g f8 f
+    f16 f f f f f f f f f f f g g g g
+    c, c c c f f f f b, b b b es es es es
+    c8 d c4 d8 f f f %25
+    f f16 f g8 g f f16 f f8-! f-!
+    R1
+    r4 f8.\p e!16 f8 f, r4
+    a'16\f b g b a b g b a8 f g8.(\trill f32 g)
+    a8 a, r d d g e f %30
+    g a g8. g16 a8 a, r4
+    f'16 f f f f f f f f f f f f f f f
+    es f d es c8 f d d,\p c c'
+    d b b8. a16 b8 b, r4
+    R1*2 %36
+    a'8\p a b b c c b d
+    c b16 a g8 f16 es d g'\f g g a a a a
+    g g g g, f8 as16 as g8 c d es
+    d16 es d es f8 f16 g a!8-! a-! r a %40
+    g16 g g g g a g f e8 e f16 g f g
+    e8 a,16 d e8 r16 e d d d d d d a' a
+    g8-! fis-! d16 e d c b8. b16 d8 es
+    d fis g g a16 b a g a, g' a, fis'
+    <g b, d, g,>4-! r\fermata \tempoBeatusB r2 %45
+    R1
+    r4 \tempoBeatusC r16 g-!\f g-! g-! f f g g f f g g
+    f8-! g-! r16 g g g g g g g g g g fis
+    g8 g g8. es16 d8-! e-! r16 c c c
+    e e e e g g g g as g f g as as b b %50
+    c8 b16 as g8-! f-! r2\fermata
+    r8 g g, g' fis, fis' fis, d'
+    g, fis g g' d fis g4
+    r a,16 a a a b d d d a' a a f
+    e8. e16 e8 f e f16 g a8 e %55
+    fis16 fis fis fis g g g g g8 b, a fis'
+    g, g'-! g,-! g'-! g, g' a, fis'
+    g g, b d g, d f! a
+    d, b d f b, b' a e'
+    f d16 c b8 a b4 r %60
+    \tempoBeatusD c2. h8 a
+    h1\fermata \bar "|." %62 finis
+  }
+}

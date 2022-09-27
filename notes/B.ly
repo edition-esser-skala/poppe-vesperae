@@ -261,3 +261,115 @@ ConfiteborBassoLyrics = \lyricmode {
   a -- men,
   a -- men, a -- men. %134 finis
 }
+
+BeatusBasso = {
+  \relative c {
+    \clef bass
+    \key g \dorian \time 4/4 \autoBeamOff \tempoBeatus
+    \mvTr g'2\fE^\tuttiE es4 f
+    b,8 b b b f'8. f16 f8 g
+    c,4 d g, g'~
+    g f! es es
+    d8 c d es f4 g %5
+    es( f) b,8 b' b g
+    a a f f g d a'([ a,)]
+    d4 b8 b c8. c16 d8 d
+    es4 b8 b c c d4
+    g, r r2 %10
+    R1*11 %21
+    r8 \mvTr b'\fE^\tuttiE b f b b16 b b8 f
+    b4 b r2
+    R1
+    r2 r8 b b f %25
+    b b16 b es,8 es b b16 b f'8 f16 f
+    R1*2
+    \mvTr f8\fE^\tuttiE c f c f4 c
+    r8 f b4 r8 g c a %30
+    g f c'8. c,16 f4 r
+    b,8 b b b b b b b
+    c d es([ f)] b,4 r
+    R1
+    r4 \mvTr a'8\pE^\soloE a g8. g16 f8 f %35
+    f8.([ e16)] f8 f g a b8. b16
+    a8 f g8. g16 a8. a16 b8 b16 b,
+    c8 d es([ f)] b, \mvTr g'\fE^\tuttiE fis8[ e16 fis]
+    g8[ es] d[ c16 d] es4 d8[ c]
+    b b a a16 g f8 f16 f r8 fis' %40
+    g g16 g e!8 e a a f f16 f
+    g8 a16 b a8. a,16 d4 g8 fis
+    g d b' a g8. a16 b8 c,
+    d8. d16 es8 es c([ g] d'8.) d,16
+    g4-! r\fermata \tempoBeatusB \mvTr es'2\pE^\solo %45
+    b4 h8 h c2
+    g4 \tempoBeatusC r16 \mvTr es'\fE^\tuttiE g es b' b g es b' b g es
+    b8 es c' c16 c b8 b a16([ g a d,]
+    g8) g es8. c16 g'8 c, as' as
+    g8. g16 g4 f4. des8 %50
+    c des16 b c8 f, r2\fermata
+    g'8 g16 g g8 g16 g d8. d16 d8 b
+    c d es c d4 g,
+    r fis'8 fis g g f d
+    a'8. a16 a8 f g d a'([ a,)] %55
+    d4 b8 b c c16 c d8 d
+    es es b b c c d4
+    g,8 g'([ b d)] g, d([ f! a)]
+    d, b([ d f)] b, b'([ a g)]
+    f g([ b d)] g,4 r %60
+    \tempoBeatusD c,2( g')
+    g1\fermata \bar "|." %62 finis
+  }
+}
+
+BeatusBassoLyrics = \lyricmode {
+  Be -- a -- tus
+  vir qui ti -- met Do -- mi -- num, be --
+  a -- tus vir: In __
+  man -- da -- tis
+  e -- ius vo -- let, vo -- let %5
+  ni -- mis. Po -- tens in
+  ter -- ra e -- rit se -- men e --
+  ius: Ge -- ne -- ra -- ti -- o re --
+  cto -- rum be -- ne -- di -- ce --
+  tur. %10
+
+  Iu -- cun -- dus ho -- mo qui mi -- se -- %22
+  re -- tur,
+
+  iu -- cun -- dus %25
+  ho -- mo qui mi -- se -- re -- tur et com -- mo -- dat.
+
+  Qui -- a in ae -- ter -- num %29
+  non, non, non, non, non %30
+  com -- mo -- ve -- bi -- tur.
+  Ab au -- di -- ti -- o -- ne ma -- la
+  non ti -- me -- bit.
+
+  Con -- fir -- ma -- tum est cor %35
+  e -- ius: non com -- mo -- ve -- bi --
+  tur do -- nec de -- spi -- ci -- at in -- i --
+  mi -- cos su -- os. Dis -- per --
+  _ _ _ _
+  _ sit de -- dit pau -- pe -- ri -- bus: Iu -- %40
+  sti -- ti -- a e -- ius ma -- net, ma -- net in
+  sae -- cu -- lum sae -- cu -- li: Cor -- nu
+  e -- ius ex -- al -- ta -- bi -- tur in
+  glo -- ri -- a, in glo -- ri --
+  a. Pec -- %45
+  ca -- tor vi -- de --
+  bit et i -- ra -- sce -- tur, i -- ra -- sce -- tur, i -- ra --
+  sce -- tur, den -- ti -- bus su -- is fre --
+  met et ta -- be -- scet: De -- si --
+  de -- ri -- um pec -- ca -- %50
+  to -- rum per -- i -- bit.
+  Glo -- ri -- a Pa -- tri et Fi -- li -- o et
+  Spi -- ri -- tu -- i San -- cto,
+  si -- cut e -- rat in prin --
+  ci -- pi -- o et nunc et sem -- %55
+  per et in sae -- cu -- la sae -- cu --
+  lo -- rum, sae -- cu -- lo -- rum, a --
+  men, a -- men, a --
+  men, a -- men, a --
+  men, a -- men, %60
+  a --
+  men. %62 finis
+}
