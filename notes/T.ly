@@ -271,3 +271,74 @@ PueriTenoreLyrics = \lyricmode {
   men, a -- men, a --
   men, a -- men. %93 finis
 }
+
+LaudateTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \mixolydian \time 4/4 \autoBeamOff \tempoLaudate
+    R1
+    r8 \mvTr d\fE^\tuttiE d d h8. a16 g4
+    a8 a a a g g r4
+    r2 r8 d' d d
+    h8. a16 g4 r8 h h h %5
+    c d c c h4. h8
+    h4 r c8 c16 c c8 c
+    h8. h16 h4 c8. c16 c8 c
+    h c f e16 d e8 e r c
+    h8. h16 h4 a8. a16 a8^\critnote d %10
+    c8. c16 c4 h8. h16 h4
+    c8 h f' e f8([ e)] e4
+    r2 c
+    h2. a4
+    gis2 c8 h f' e %15
+    f([ e)] e4 r2
+    c8. c16 c4 c c8 h
+    c8. c16 c8 c c c c h
+    c c c c c c c h
+    c8. c16 c8 d d4 d %20
+    d8 d r4 r d8 a
+    h c16 h a8 a g g d' a
+    h c16 h a8 a g g d' d
+    e d d4 d fis,8 fis
+    g g16 g c8 c a a h h %25
+    a g g([ fis)] g4 a8[ fis]
+    e[ a fis d'] g,[ h e] d
+    cis d d8.([ cis16)] d4 d8 d
+    c c16 c c8 c d^\critnote h h g
+    e' d d4 d r %30
+    e8 d d4 d r\fermata \bar "|." %31 finis
+  }
+}
+
+LaudateTenoreLyrics = \lyricmode {
+  Lau -- da -- te Do -- mi -- num, %2
+  o -- mnes, o -- mnes gen -- tes,
+  lau -- da -- te
+  Do -- mi -- num, lau -- da -- te %5
+  e -- um, o -- mnes po -- pu --
+  li. Quo -- ni -- am con -- fir --
+  ma -- ta est su -- per nos mi --
+  se -- ri -- cor -- di -- a e -- ius, et
+  ve -- ri -- tas Do -- mi -- ni, et %10
+  ve -- ri -- tas Do -- mi -- ni
+  ma -- net in ae -- ter -- num,
+  ma --
+  net, ma --
+  net, ma -- net in ae -- %15
+  ter -- num.
+  Glo -- ri -- a Pa -- tri et
+  Fi -- li -- o et Spi -- ri -- tu -- i
+  San -- cto, si -- cut e -- rat in prin --
+  ci -- pi -- o et nunc et sem -- %20
+  per et in
+  sae -- cu -- la sae -- cu -- lo -- rum, et in
+  sae -- cu -- la sae -- cu -- lo -- rum, sae -- cu --
+  lo -- rum, a -- men, et in
+  sae -- cu -- la sae -- cu -- lo -- rum, sae -- cu -- %25
+  lo -- rum, a -- men, a --
+  _ _ men,
+  a -- men, a -- men, et in
+  sae -- cu -- la sae -- cu -- lo -- rum, sae -- cu --
+  lo -- rum, a -- men, %30
+  a -- men, a -- men. %31 finis
+}

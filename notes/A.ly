@@ -282,3 +282,75 @@ PueriAltoLyrics = \lyricmode {
   men, a -- men, a -- men, a --
   men, a -- men. %93 finis
 }
+
+LaudateAlto = {
+  \relative c' {
+    \clef treble
+    \key g \mixolydian \time 4/4 \autoBeamOff \tempoLaudate
+    r2 r8 \mvTr g'\fE^\tuttiE g g
+    fis8. e16 d4 d8 d d d
+    fis4 fis g8 g a a
+    r g g g fis8. e16 d8 d
+    h4 h r8 h d g %5
+    g^\critnote g g a fis4. fis8
+    gis4 r g8 g16 g g8 g
+    g8. g16 g4 g8. g16 g8 g
+    g e a g16 g g8 g r g
+    g8. g16 g4 f8. f16 f8 a %10
+    a8. a16 a4 gis8. gis16 gis4
+    a8 h a a a8([ gis)] a4
+    h2. a4
+    gis e c2
+    h a'8 h a a %15
+    a([ gis)] a4 r2
+    g8. g16 g4 g g8 g
+    g8. g16 g8 g g g g g
+    g g g g g g g g
+    g8. g16 g8 g g4 fis %20
+    g8 g a a g a16 g g8 fis
+    g g a a d, d16 d g8 fis
+    g g r4 r2
+    r4 g8.([ fis16)] g4 d8 d
+    e e16 e e8 e d d d d %25
+    e d d4 d8 d[ fis d]
+    e[ cis d fis] h,[ d e g]
+    e d e4 fis fis8 fis
+    g g16 g a8 a g g g g
+    e g g([ fis)] g4 r %30
+    g8 g g([ fis)] g4 r\fermata \bar "|." %31 finis
+  }
+}
+
+LaudateAltoLyrics = \lyricmode {
+  Lau -- da -- te %1
+  Do -- mi -- num, o -- mnes, o -- mnes
+  gen -- tes, o -- mnes, o -- mnes,
+  lau -- da -- te Do -- mi -- num, lau --
+  da -- te, lau -- da -- te %5
+  e -- um, o -- mnes po -- pu --
+  li. Quo -- ni -- am con -- fir --
+  ma -- ta est su -- per nos mi --
+  se -- ri -- cor -- di -- a e -- ius, et
+  ve -- ri -- tas Do -- mi -- ni, et %10
+  ve -- ri -- tas Do -- mi -- ni
+  ma -- net in ae -- ter -- num,
+  ma -- net,
+  ma -- net, ma --
+  net, ma -- net in ae -- %15
+  ter -- num.
+  Glo -- ri -- a Pa -- tri et
+  Fi -- li -- o et Spi -- ri -- tu -- i
+  San -- cto, si -- cut e -- rat in prin --
+  ci -- pi -- o et nunc et %20
+  sem -- per et in sae -- cu -- la sae -- cu --
+  lo -- rum, et in sae -- cu -- la sae -- cu --
+  lo -- rum,
+  a -- men, et in
+  sae -- cu -- la sae -- cu -- lo -- rum, sae -- cu -- %25
+  lo -- rum, a -- men, a --
+  _ _
+  _ men, a -- men, et in
+  sae -- cu -- la sae -- cu -- lo -- rum, sae -- cu --
+  lo -- rum, a -- men, %30
+  a -- men, a -- men. %31 finis
+}

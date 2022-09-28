@@ -371,3 +371,75 @@ BeatusSopranoLyrics = \lyricmode {
   a --
   men. %62 finis
 }
+
+LaudateSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \mixolydian \time 4/4 \autoBeamOff \tempoLaudate
+    r8 \mvTr d'\fE^\tuttiE d d h8. a16 g4
+    a8 a a a h4 h
+    r8 d d d c c c c
+    h8. h16 h8 h a4 a8 a
+    g4 g r8 g h d %5
+    e d e e e4. dis8
+    e4 r e8 e16 e e8 e
+    d8. d16 d4 e8. e16 e8 e
+    d c c c16h c8 c r e
+    d8. d16 d4 d8. d16 d8 f %10
+    e8. e16 e4 e8. e16 e4
+    e8 e d c h4 a
+    e'2 e
+    e e4 e
+    e2 e8 e d c %15
+    h4 a r2
+    e'8. e16 e4 d d8 d
+    e8. e16 e8 e d d d d
+    e e e e d d d d
+    e8. e16 e8 d c h c4 %20
+    h8 h([ d)] a h c16 h a8 a
+    g g d' a h c16 h a8 a
+    g g g8. fis16 g8 g h a
+    c h a4 g8 h[ d a]
+    g[ h c e,] fis[ fis' g d] %25
+    c h a4 h d8 d
+    cis cis16 cis a8 a h h h h
+    g fis? h a a a d[ fis]
+    e[ c! a d] h g d'16([ c)] h([ a)]
+    g8 h a4 h r %30
+    c8 h a4 h r\fermata \bar "|." %31 finis
+  }
+}
+
+LaudateSopranoLyrics = \lyricmode {
+  Lau -- da -- te Do -- mi -- num,
+  o -- mnes, o -- mnes gen -- tes,
+  lau -- da -- te e -- um, o -- mnes
+  po -- pu -- li, lau -- da -- te, lau --
+  da -- te, lau -- da -- te %5
+  e -- um, o -- mnes po -- pu --
+  li. Quo -- ni -- am con -- fir --
+  ma -- ta est su -- per nos mi --
+  se -- ri -- cor -- di -- a e -- ius, et
+  ve -- ri -- tas Do -- mi -- ni, et %10
+  ve -- ri -- tas Do -- mi -- ni
+  ma -- net in ae -- ter -- num,
+  ma -- net,
+  ma -- net, ma --
+  net, ma -- net in ae -- %15
+  ter -- num.
+  Glo -- ri -- a Pa -- tri et
+  Fi -- li -- o et Spi -- ri -- tu -- i
+  San -- cto, si -- cut e -- rat in prin --
+  ci -- pi -- o et nunc et sem -- %20
+  per et __ in sae -- cu -- la sae -- cu --
+  lo -- rum, et in sae -- cu -- la sae -- cu --
+  lo -- rum, sae -- cu -- lo -- rum, sae -- cu --
+  lo -- rum, a -- men, a --
+  _ _ %25
+  _ men, a -- men, et in
+  sae -- cu -- la sae -- cu -- lo -- rum, sae -- cu --
+  lo -- rum, a -- men, a -- men, a --
+  _ _ men, sae -- cu --
+  lo -- rum, a -- men, %30
+  a -- men, a -- men. %31 finis
+}

@@ -198,3 +198,41 @@ PueriOboeI = {
     r4 f''\fE d r\fermata \bar "|." %93 finis
   }
 }
+
+LaudateOboeI = {
+  \relative c' {
+    \clef treble
+    \key g \mixolydian \time 4/4 \tempoLaudate
+    r8 d'\fE d d h8. a16 g4
+    a8 a a a h4 h
+    r8 fis' fis fis e8. d16 c4
+    h8 a h c d4 d
+    h h r8 h h h %5
+    c d c c fis,2
+    gis4 r e'8 f g a
+    g4 g e8 f g a
+    g e f e16 d e8 f g a
+    g4 g f8 g a h %10
+    c4 c gis8 a h gis
+    a h a a a gis a4
+    h8 a h gis h4 a
+    gis8 a h gis h4 a
+    gis8 a h gis a h a a %15
+    a gis a4 r2
+    e8 f g a g16 d h d g, g' g f
+    e8 f g a g16 d h d g4
+    e8 f g a g4 g
+    g4. g8 g4 fis %20
+    g a8 a g g g fis
+    g g a a g g g fis
+    g4 a h r
+    r g8. fis16 g4 a8 a,
+    g' g, a' e d d, d' g %25
+    a g g fis g4 fis
+    cis8 cis d d d d e e
+    e d e4 fis8 fis fis a
+    g e c! a h d g d
+    e d g8. fis16 g4 r %30
+    g8 g g8. fis16 g4 r\fermata \bar "|." %31 finis
+  }
+}

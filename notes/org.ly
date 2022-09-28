@@ -616,3 +616,80 @@ PueriBassFigures = \figuremode {
   r4 <7>8 <6-> <6 5->4 <4>8 <3>
   r1 %93 finis
 }
+
+LaudateOrgano = {
+  \relative c {
+    \clef treble
+    \key g \mixolydian \time 4/4 \tempoLaudate
+    << {
+      r8 d'' d d h8. a16 g4
+      a8
+    } \\ {
+      \mvTr s2\fE-\tuttiE g4 g8 g
+      fis
+    } >> \clef "treble_8" d[ d d] h \clef bass g[ g g]
+    fis8. e16 d4 e8 e fis fis
+    g2 d
+    e r8 g g g %5
+    c, h c a h2
+    e4 r c8 d e f
+    g, a h g c d e f
+    g a f g c, d e f
+    g, a h c d e f g %10
+    a, h c a e' fis gis e
+    a, g! f! c' d e a, c
+    gis' fis gis e a, h c d
+    e fis gis e a, h c d
+    e fis gis e a g? f? c %15
+    d e a,4 r2
+    c8 d e f g f g g,
+    c d e f g f g g,
+    c d e f g f g g,
+    c4. h8 a g a d, %20
+    g4 fis g d'
+    g, fis g d'
+    g, d' g, g'8 fis
+    e g d4 g fis
+    e c d h %25
+    c8 g d' d, g4 d'
+    a fis' g e
+    a8 h g a d,4 d
+    e fis g h,
+    c8 g d'4 g, r %30
+    c8 g d'4 g, r\fermata \bar "|." %31 finis
+  }
+}
+
+LaudateBassFigures = \figuremode {
+  r1
+  r8 <_+>4. <6>2
+  <6>4 <_+> <6> <6 5>
+  r2 <_+>
+  <5>2 r8 q4. %5
+  r8 <6>4. <5+ 4>4. <\t _+>8
+  <_+>2 <5!>4. \once \bassFigureExtendersOn q8
+  r1
+  r4. <6 4>16 <5 3> r2
+  r1 %10
+  r2 <_+>
+  r8 <6> q q <6 5> <_+>4 <6>8
+  <6>2 <9>4 <6>
+  <_+>2 <9>4 <8>
+  <_+>2 r8 <6> q q %15
+  <6 5> <_+>2..
+  r2 <4>4. <3>8
+  r2 <4>4. <3>8
+  r2 <4>4. <3>8
+  r4. <6>8 <7>4 <6\\>8 <\t> %20
+  r4 <6>2 <4>8 <_+>
+  r4 <6>2 <4>8 <_+>
+  r4 <4>8 <_+> r4. <6>8
+  q4 <4>8 <_+> r4 <6>
+  <5> <6> <_+> <6> %25
+  <6>4 <4>8 <_+> r4 <_+>
+  q <6>2.
+  <7 _+>8 <5+> <6 5> <_+> q2
+  <6!>4 <6 5>2 <6>4
+  r4 <4>8 <_+> r2 %30
+  r4 <4>8 <_+> r2 %31 finis
+}

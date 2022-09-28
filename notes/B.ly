@@ -373,3 +373,74 @@ BeatusBassoLyrics = \lyricmode {
   a --
   men. %62 finis
 }
+
+LaudateBasso = {
+  \relative c {
+    \clef bass
+    \key g \mixolydian \time 4/4 \autoBeamOff \tempoLaudate
+    R1
+    r2 r8 \mvTr g'8\fE^\tuttiE g g
+    fis8. e16 d4 e8 e fis fis
+    g4 g r8 d d d
+    e4 e r8 g g g %5
+    c h c a h4. h,8
+    e4 r c'8 c16 c c8 c
+    g a h([ g)] c8. c16 c8 c
+    g a f g16 g, c8 c r c'
+    g a h([ c)] d8. d16 d8 d %10
+    a h c([ a)] e fis gis([ e)]
+    a g f c d([ e)] a,4
+    gis'8[ fis gis e] a,[ h c d]
+    e[ fis gis e] a,[ h c d]
+    e[ fis gis e] a g? f? c %15
+    d([ e)] a,4 r2
+    c'8. c16 c4 g8([ f)] g g,
+    c8. d16 e8 f g f g g,
+    c8. d16 e8 f g f g g,
+    c'8. c16 c8 h a([ g)] a([ d,)] %20
+    g g fis fis g g16 g d8 d
+    g g fis fis g g16 g d8 d
+    g g d d g, g g' fis
+    e g d4 g8 g[ a^\critnote d]
+    g,[ e a c] d d, h h %25
+    c g' d4 \once \tieDashed g8~ g d8 d
+    a' a16 a fis8 fis g g e e
+    a h g([ a)] d,4 d8 d
+    e e16 e fis8 fis g g h, h
+    c g d'([ d,)] g4 r %30
+    c8 g' d4 g, r\fermata \bar "|." %31 finis
+  }
+}
+
+LaudateBassoLyrics = \lyricmode {
+  Lau -- da -- te %2
+  Do -- mi -- num, o -- mnes, o -- mnes
+  gen -- tes, lau -- da -- te
+  e -- um, lau -- da -- te %5
+  e -- um, o -- mnes po -- pu --
+  li. Quo -- ni -- am con -- fir --
+  ma -- ta est su -- per nos mi --
+  se -- ri -- cor -- di -- a e -- ius, et
+  ve -- ri -- tas Do -- mi -- ni, et %10
+  ve -- ri -- tas Do -- mi -- ni __
+  ma -- net in ae -- ter -- num,
+  ma -- _
+  _ _
+  _ _ net in ae -- %15
+  ter -- num.
+  Glo -- ri -- a Pa -- tri et
+  Fi -- li -- o et Spi -- ri -- tu -- i
+  San -- cto, si -- cut e -- rat in prin --
+  ci -- pi -- o et nunc et __ %20
+  sem -- per et in sae -- cu -- la sae -- cu --
+  lo -- rum, et in sae -- cu -- la sae -- cu --
+  lo -- rum, sae -- cu -- lo -- rum, sae -- cu --
+  lo -- rum, a -- men, a --
+  _ _ men, sae -- cu -- %25
+  lo -- rum, a -- men, et in
+  sae -- cu -- la sae -- cu -- lo -- rum, sae -- cu --
+  lo -- rum, a -- men, et in
+  sae -- cu -- la sae -- cu -- lo -- rum, sae -- cu --
+  lo -- rum, a -- men, %30
+  a -- men, a -- men. %31 finis
+}

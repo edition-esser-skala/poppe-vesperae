@@ -150,76 +150,149 @@
   %     \midi { \tempo 4 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \section "3" "Laudate Pueri"
+  %   \addTocEntry
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     system-system-spacing.basic-distance = #17
+  %     system-system-spacing.minimum-distance = #17
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \setGroupDistance #11 #12 } <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \PueriOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \PueriOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup \with { \setGroupDistance #11 #12 } <<
+  %         \new GrandStaff \with { \setGroupDistance #11 #12 } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \PueriViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \PueriViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \PueriViola
+  %         }
+  %       >>
+  %       \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \PueriAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \PueriAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \PueriTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \PueriTenoreLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \PueriOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \PueriBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 90 }
+  %   }
+  % }
   \bookpart {
-    \section "3" "Laudate Pueri"
+    \section "4" "Laudate Dominum"
     \addTocEntry
-    \paper {
-      top-system-spacing.basic-distance = #10
-      top-system-spacing.minimum-distance = #10
-      top-markup-spacing.basic-distance = #0
-      top-markup-spacing.minimum-distance = #0
-      markup-system-spacing.basic-distance = #10
-      markup-system-spacing.minimum-distance = #10
-      system-system-spacing.basic-distance = #17
-      system-system-spacing.minimum-distance = #17
-      systems-per-page = #2
-    }
     \score {
       <<
         \new StaffGroup <<
-          \new GrandStaff \with { \setGroupDistance #11 #12 } <<
+          \new GrandStaff <<
             \set GrandStaff.instrumentName = "ob"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \PueriOboeI
+              \LaudateOboeI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \PueriOboeII
+              \LaudateOboeII
             }
           >>
         >>
-        \new StaffGroup \with { \setGroupDistance #11 #12 } <<
-          \new GrandStaff \with { \setGroupDistance #11 #12 } <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \PueriViolinoI
+              \LaudateViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \PueriViolinoII
+              \LaudateViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \PueriViola
+            \LaudateViola
           }
         >>
-        \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \LaudateSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \LaudateSopranoLyrics
+
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \PueriAlto }
+            \new Voice = "Alto" { \dynamicUp \LaudateAlto }
           }
-          \new Lyrics \lyricsto Alto \PueriAltoLyrics
+          \new Lyrics \lyricsto Alto \LaudateAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \PueriTenore }
+            \new Voice = "Tenore" { \dynamicUp \LaudateTenore }
           }
-          \new Lyrics \lyricsto Tenore \PueriTenoreLyrics
+          \new Lyrics \lyricsto Tenore \LaudateTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \LaudateBasso }
+          }
+          \new Lyrics \lyricsto Basso \LaudateBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \PueriOrgano
+            \LaudateOrgano
           }
         >>
-        \new FiguredBass { \PueriBassFigures }
+        \new FiguredBass { \LaudateBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 100 }
     }
   }
 }

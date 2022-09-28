@@ -227,3 +227,41 @@ PueriViola = {
     r4 f'\fE b, r\fermata \bar "|." %93 finis
   }
 }
+
+LaudateViola = {
+  \relative c' {
+    \clef alto
+    \key g \mixolydian \time 4/4 \tempoLaudate
+    R1
+    r8 d\fE d d h8. a16 g4
+    fis'8. e16 d4 e8 e fis fis
+    g2 d
+    e r8 g g g %5
+    c, h c a h2
+    e4 r c8 d e f
+    g, a h g c d e f
+    g a f g c, d e f
+    g, a h c d e f g %10
+    a, h c a e' fis gis e
+    a, g! f! c' d e a, c
+    gis' fis gis e a, h c d
+    e fis gis e a, h c d
+    e fis gis e a g? f? c %15
+    d e a,4 r2
+    c8 d e f g f g g,
+    c d e f g f g g,
+    c d e f g f g g,
+    c4. h8 a g a d, %20
+    g4 fis g d'
+    g, fis g d'
+    g, d' g, g'8 fis
+    e g d4 g fis
+    e c d h %25
+    c8 g d' d, g4 d'
+    a fis' g e
+    a8 h g a d,4 d
+    e fis g h,
+    c8 g d'4 g, r %30
+    c8 g d'4 g, r\fermata \bar "|." %31 finis
+  }
+}
