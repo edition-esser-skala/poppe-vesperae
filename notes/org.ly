@@ -418,3 +418,201 @@ BeatusBassFigures = \figuremode {
   <_-> <6- 4>4 <5 _!>8 <4 2>
   <5 _!>1 %62 finis
 }
+
+PueriOrgano = {
+  \relative c {
+    \clef bass
+    \key b \lydian \time 4/4 \tempoPueri
+    r8 \mvTr b\pE-\soloE d b r f' a f
+    r g b g r d f d
+    g,4 a b8 c d es
+    f es f f, r b\fE d b
+    r f' a f r g b g %5
+    r es g es r a, c a
+    b c d es f es f f,
+    r b\pE d b r f' a f
+    r g, b g c f, c' c,
+    r f\fE a f r g b g %10
+    r a c a r b d b
+    c f, c' c, r f\pE a f
+    r g b g r a f b
+    r c e c r d f d
+    r e f c' g4 g, %15
+    r8 d' f d r e g g,
+    r c e c d4 r8 e
+    f g a b << { c4 } \\ { c, } >> r8 a
+    g a b c d b c4
+    r8 f,\fE a f r g b g %20
+    r f a f r g b g
+    r f a f c' f, c' c,
+    f g\pE a b c b a g
+    f' e d g, c d e f
+    g4 r8 g d4 r8 d %25
+    f4 r8 f c d e f
+    g f g g, c\f d e c
+    d e f g c, d e f
+    g16 a g f e8 c f f, d' b
+    e e, c' a d d, h'? g %30
+    c c' a f g4 g,
+    a8 e' f g c,4 r\fermata \bar "||"
+    \time 3/4 \override Staff.TimeSignature.style = #'single-digit
+      a8\pE a' e d c h? \noBreak
+    a4 c e
+    a,8 h? c a h? cis %35
+    d4 d, r8 fis'
+    g4 g, r8 g'
+    c f, g4 g,
+    c4. c'8 c4
+    h4. b8 b4 %40
+    a4. a8 g4
+    f2 r4
+    cis a d \noBreak
+    g a a,
+    \time 4/4 \revert Staff.TimeSignature.style
+      d8 e f cis d e f g \noBreak %45
+    a g f e d c b a
+    b g c c, f g a b
+    c d b c f, g a b
+    c d e a, d e f g
+    a g f d g, a b f %50
+    g e a4 d8\fE e f g
+    a, h? cis a d e f g
+    a b! c! f, b, c d e
+    f, g a f g a b c
+    d e f g a b g a %55
+    d,4 r8 cis\pE d4 r8 g,
+    a4 cis d8 g a4
+    d, a b h
+    c h a8 f' e4
+    a4 r8 f e4 c %60
+    f8 d r g, c c, h' g
+    a4 d g, f
+    g a d8\fE e f g
+    a, h? cis a d e f g
+    a b! c! a d c b a %65
+    g d' g, c, d4 r8 d
+    g g, r d'\pE g g, r d'\fE
+    g4 r8 g\pE f! d16 e f8 d
+    a'4 f g8 d a4
+    d b c d %70
+    g, r8 g c4^\critnote r8 c
+    f,4 r8 f b!4 r8 g
+    d'4 g, d'\fE g,
+    r8 b\pE d b r f' a f
+    r c es c r g b g %75
+    cis4 d8 f, g e a4
+    r8 d\fE f d r e g e
+    r f a f g d a' a,
+    r d f d r e g e
+    f g a a, d4 a\pE %80
+    a r a a
+    d e f f,\fE
+    f r f f
+    g a b d\pE
+    es e f g %85
+    f f, b g
+    c8 f c4 f, g8 a
+    b es f f, b4 g\fE
+    c8 f c4 f, g
+    a8 b f4 b es\pE %90
+    c f g8 a b c
+    f,4 g a8 b f4
+    b, f'\fE b, r\fermata \bar "|." %93 finis
+  }
+}
+
+PueriBassFigures = \figuremode {
+  r2 <4>4 <6>
+  <9> <6> r4. <6>8
+  <6- 5>4 <6 5-> <9> <6>
+  <4>4. <3>8 r2
+  <4>8 <3>4. <9>8 <8>4. %5
+  r2 r8 <6 5->4.
+  r1
+  r
+  r4. <7> <4>8 <3>
+  r1 %10
+  r8 <6>2..
+  <6 3>1
+  r2 r8 <6>4 q8
+  r1
+  r8 <6>4. <5 _!> <6 4>8 %15
+  r2 r8 <6> <4> <_!>
+  r2 <6->4. <6 5>8
+  r4 <6>8 q r4. <6>8
+  r4. <7>4 <8 6>16 <7 5> r4
+  r1 %20
+  r
+  r
+  r
+  r8 <6>4 <_!>2 <7>8
+  <_!>1 %25
+  r
+  <_!>8 <7> <4> <_!> r2
+  r4. <_->8 r2
+  r4 <6> <9> <3>
+  <9> <3> <9> <3>8 <_!> %30
+  <9>4 <3> <_!>2
+  <5>8 <6>4 <_!>8 r2
+  r4 <5! _+>2
+  r4 <6> <5! _+>
+  r2 r8 <6 5!> %35
+  r2 r8 <6 5!>
+  <_!>2.
+  r4 <4> <_!>
+  r2.
+  <6>4. <\t> %40
+  <6>2 <5 _->8 <6 \t>
+  r2.
+  <6>4 <8 _+>8 <7 \t>4.
+  <7>8 <8> <4>4 <\t>8 <_+>
+  r4 <6>8 q r4 q8 <6 _!> %45
+  <_+>2. <5>8 <6>
+  <6 5>1
+  <7>4 q8 <4>16 <3> r2
+  <4>4 <6>8 <7 _+> <9>4 <6>
+  <_+> <6>4. <_+>8 <6> q %50
+  <7>4 <4>8 <_+> r2
+  <_+>4 <5> <4> <6>
+  <6> <_-> <4-> <6>
+  <6> q <4> <6>
+  q8 <6\\ 4> <6> <_!> <7 _+> <5> <4+ 2> <_+> %55
+  r4. <6>2 q8
+  <_+>4 <6>2 <6 4>8 <5 _+>
+  r4 <6 _!> <6 5> <\t \t>
+  r4 <6\\ 4 3>2 <[5! _+]>4
+  r4. <6>8 <5! _+>4 <6> %60
+  r4. <_!> <6>8 <_!>
+  r4 <7> <3!>8 <4+> <6>4
+  <6 _!>4 <_+>2.
+  <_+>4 <5> <4> <6>
+  <6> <_-> <9- _+>8 <4+ 2> <6> <6\\> %65
+  r <7 _+>4 <6 _!>8 <_+>4. <\t>8
+  r4. <_+>2 q8
+  r2 <6>8 <_!>4.
+  <_+>4 <6> <6 5> <4>8 <_+>
+  r2. <_+>4 %70
+  <_!>4. <\t>8 r2
+  r1
+  <_+>2 q
+  r1
+  <_->1 %75
+  <5 _!>4. <6>8 <7>4 <4>8 <_+>
+  r2 r8 <6\\>4.
+  r8 <6>4. q4 <4>8 <_+>
+  r2 r8 <6\\>4.
+  <6>4 <4>8 <_+> r4 <5 _+>4 %80
+  <6 4>8 <5 _+> <6 4> <5 _+> <6 4>4 <5 _+>
+  <6 5>4 q2.
+  <6 4>8 <5 3> <6 4> <5 3> <6 4>4 <5 3>
+  <7>8 <6-> <6 5->2 <6>4
+  r q2. %85
+  <4>4 <\t>8 <3> r2
+  <_!>4 <4>8 <3> r4 <6->8 <6 5->
+  r <7> <4> <3> r2
+  <_!>4 <4>8 <3> r4 <6->
+  <6> <4>8 <3> r2 %90
+  <_!>2 r8 <6> <6 5>4
+  r4 <7>8 <6-> <6 5->4 <4>8 <3>
+  r1 %93 finis
+}

@@ -121,3 +121,164 @@ BeatusAltoLyrics = \lyricmode {
   a --
   men. %62 finis
 }
+
+PueriAlto = {
+  \relative c' {
+    \clef treble
+    \key b \lydian \time 4/4 \autoBeamOff \tempoPueri
+    \mvTr f4\pE^\solo b4.( a8) a4
+    a4( g8.) g16 f4 r8 b
+    es,4. es8 d8. es16 d4
+    c4. c8 d4 r
+    R1*3 %7
+    r8 d d d c c16 c c8. c16
+    b8 d g f e f f8. e16
+    f4 r r2 %10
+    R1
+    r2 r8 a a a
+    g8. g16 g8 g f16([ e f g] f[ a)] g([ f)]
+    e8 e r4 r2
+    r r4 d8 e %15
+    f4. f8 e f16 e d8. d16
+    e4 r r2
+    r r4 e8 f
+    g4. g8 f g16 f e8.\trill f16
+    f4 r r2 %20
+    R1*3
+    r2 r4 r8 e
+    d16([ e d e] d[ e d e] f8.) f16 f8 f^\critnote %25
+    c16([ d c d] c[ d c d] e8.) e16 e4
+    d8 e d8. d16 e4 r
+    R1*4 \noBreak %31
+    R1\fermata \bar "||"
+    \time 3/4 \override Staff.TimeSignature.style = #'single-digit
+      r4 r e \noBreak
+    c'8([ h?)] a([ h)] gis4
+    \appoggiatura gis8 a4 a r8 a16 g %35
+    f8[ a16 g] f8[ e d c!]
+    h?[ a] h?([ c)] d4
+    e8([ f)] d4. d8
+    e4 r r
+    r8 g g g g4 %40
+    f4. f8 g g
+    a4 a r
+    a4. g8 f([ e] \noBreak
+    f[ g]) e2
+    \time 4/4 \revert Staff.TimeSignature.style
+      d8 a' a a f8. e16 d8 e16 h \noBreak %45
+    cis8 cis r4 f r
+    g r c r8 b
+    b a a g16([ f)] f4 a8 a
+    g8. g16 g4 f4. f8
+    e4 r8 a b a g f %50
+    f4( e) d r
+    R1*4 %55
+    d16([ e d e] f[ g a g] f8.) e16 d8 e
+    cis a r a' a g16([ f)] f8. e16
+    d4 f8 c d d16 d g8. f16
+    e4 e8 fis16 gis a8 h16 a gis8. a16
+    a4 r r2 %60
+    R1*6 %66
+    r8 g g fis g g r4
+    r8 d d d d4. f8
+    e e f f e d d8.([ cis16)]
+    d4 d8. d16 e4. fis8 %70
+    g g r g e8([ f16 g] c,8[ d16 e]
+    f8) f r f d4 d8 g
+    fis4 g r2
+    d4. d16 e f4 f
+    es es8 f g8. g16 g8 g %75
+    g8. g16 f8 f f4( e)
+    d r r2
+    R1*2
+    r2 r4 e8 e %80
+    f e f e f8. f16 e8 a
+    a a g g f f r4
+    R1*3 %85
+    r8 c( f[ es?16 f)] d8 d( g[ f16 g]
+    e8) f f8.([ e16)] f4 es8. es16
+    d8 d c4 b r
+    R1
+    r8 d( f[ es?16 f]) d8 d( g[ f16 g]) %90
+    e!8 e( a[ g16 a] g8) f f8.([ e16)]
+    f8 f4 es8 es d c4
+    b c d r\fermata \bar "|." %93 finis
+  }
+}
+
+PueriAltoLyrics = \lyricmode {
+  Lau -- da -- te
+  pu -- e -- ri, lau --
+  da -- te pu -- e -- ri
+  Do -- mi -- num.
+
+  Lau -- da -- te pu -- e -- ri Do -- mi -- %58
+  num:  Lau -- da -- te no -- men Do -- mi --
+  ni. %10
+
+  Sit no -- men
+  Do -- mi -- ni, sit be -- ne --
+  di -- ctum,
+  ex hoc %15
+  nunc et us -- que in sae -- cu --
+  lum,
+  ex hoc
+  nunc et us -- que in sae -- cu --
+  lum. %20
+
+  Lau -- %24
+  da -- bi -- le, lau -- %25
+  da -- bi -- le
+  no -- men Do -- mi -- ni.
+
+  Ex -- %33
+  cel -- sus, ex --
+  cel -- sus su -- per %35
+  o -- _
+  _ mnes gen --
+  tes Do -- mi --
+  nus,
+  et su -- per coe -- %40
+  los, et su -- per
+  coe -- los
+  glo -- ri -- a __
+  e --
+  ius. Quis si -- cut Do -- mi -- nus De -- us %45
+  no -- ster, qui,
+  qui, qui in
+  al -- tis ha -- bi -- tat, et hu --
+  mi -- li -- a re -- spi --
+  cit in coe -- lo et in %50
+  ter -- ra?
+
+  Su -- sci -- tans a %56
+  ter -- ra, a ter -- ra in -- o --
+  pem, et de ster -- co -- re e -- ri --
+  gens, e -- ri -- gens, e -- ri -- gens pau -- pe --
+  rem. %60
+
+  Qui ha -- bi -- ta -- re, %67
+  qui ha -- bi -- ta -- re
+  fa -- cit ste -- ri -- lem in do --
+  mo, ma -- trem fi -- li -- %70
+  o -- rum lae -- tan --
+  tem, lae -- tan -- tem, lae --
+  tan -- tem.
+  Glo -- ri -- a Pa -- tri,
+  glo -- ri -- a Fi -- li -- o et %75
+  Spi -- ri -- tu -- i San --
+  cto,
+
+  si -- cut %80
+  e -- rat in prin -- ci -- pi -- o et
+  nunc, et nunc et sem -- per,
+
+  a -- men, a -- %86
+  men, a -- men, sae -- cu --
+  lo -- rum, a -- men,
+
+  a -- men, a -- %90
+  men, a -- men, a --
+  men, a -- men, a -- men, a --
+  men, a -- men. %93 finis
+}

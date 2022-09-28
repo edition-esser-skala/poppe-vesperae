@@ -153,3 +153,77 @@ BeatusViola = {
     g1\fermata \bar "|." %62 finis
   }
 }
+
+PueriViola = {
+  \relative c' {
+    \clef alto
+    \key b \lydian \time 4/4 \tempoPueri
+    R1*3
+    r2 r4 r8 b\fE
+    f' f, r f' g d r d %5
+    es es, r es' f f, r a
+    b c d es f es f f
+    f4 r r2
+    R1
+    f4\fE r8 f g g, r d' %10
+    c f r f b, f' r f
+    c f r c f,4 r
+    R1*7 %19
+    c'4\fE r8 f g, d' r d16 e %20
+    f8 f, r f' g d r d
+    f f, r c' c, c' r c
+    a f r4 r2
+    R1*3 %26
+    r2 c'8\f d e c
+    d e f g c, d e f
+    g16 a g f e8 c f f, d' b
+    e e, c' a d d, h'? g %30
+    c c' a f g4 g, \noBreak
+    a8 e' f g c,4 r\fermata \bar "||"
+    \time 3/4 \override Staff.TimeSignature.style = #'single-digit
+      a8\pE a' e d c h? \noBreak
+    a4 c e
+    a,8 h? c a h? cis %35
+    d4 d, r8 fis'?
+    g4 g, r8 g
+    c f, g4 g
+    c4. c8 c4
+    h4. b8 b4 %40
+    a4. a8 g4
+    f2 r4
+    e a d, \noBreak
+    g a a
+    \time 4/4 \revert Staff.TimeSignature.style
+      d4 r r2 \noBreak %45
+    R1*5 %50
+    r2 d8\fE e f g
+    a, h? cis a d e f g
+    a b! c! f, b, c d e
+    f, g a f g a b c
+    d e f g a b g a %55
+    a4 r r2
+    R1*6^\critnote %62
+    r2 d,8\fE e f g
+    a, h? cis a d e f g
+    a b! c! a d c b a %65
+    g d' g, c, d4 r8 d
+    d4 r r2
+    R1*5 %72
+    r4 r8 d\fE d4 d
+    R1*3 %76
+    r8 d\fE f d r e g e
+    r f a f g d a' a,
+    r d f d r e g e
+    f g a a, d4 r %80
+    R1
+    r2 r4 f,\fE
+    f r f f
+    g a b r
+    R1*3 %87
+    r2 r4 g\fE
+    c8 f c4 f, g
+    a8 b f4 b r %90
+    R1*2
+    r4 f'\fE b, r\fermata \bar "|." %93 finis
+  }
+}

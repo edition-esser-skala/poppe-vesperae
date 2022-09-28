@@ -202,3 +202,97 @@ BeatusViolinoII = {
     d1\fermata \bar "|." %62 finis
   }
 }
+
+PueriViolinoII = {
+  \relative c' {
+    \clef treble
+    \key b \lydian \time 4/4 \tempoPueri
+    R1*3
+    r2 r8 d'\fE d, d'
+    c c c, c' b b b, b' %5
+    b,4 r8 b' a f' f, f'~
+    f d d, d' d16 c d es c8. c16
+    d4 r8 f\p f, f' r a,
+    b g, r g' g, a r4
+    r8 a'\fE c a r b d b %10
+    r c16 b a c b a b8 b16 a g b a g
+    a8 b16 a g8.\trill a16 a4 r8 c\p
+    b g r d' a f' r d
+    c g' r g, f a r a
+    c e, f c' g4 r8 c^\critnote %15
+    a a, r f'' g e, g g,
+    c' c, r4 r r8 g'
+    a( b) c( d) c-! c-! r c
+    b( c) d( e) f d c16 g c b
+    a8 f r4 r2 %20
+    r8 c'\fE c, c' b16 a b c b d c b
+    a g a b a c b a g c b a g8.\trill g16
+    a4 r r r8 e\mp
+    f g a h c c, r4
+    r r8 g'' f16 g f g f g f g %25
+    a8. a16 a8 a g f e d16 c
+    g8 c g f' e4 r
+    r r8 d\fE e f g a
+    b, g r c a'4. g16 f
+    g4. f16 e f4. e16 d %30
+    e4. d16 c h?4. c8 \noBreak
+    c e, f g c,4 r\fermata \bar "||"
+    \time 3/4 \override Staff.TimeSignature.style = #'single-digit
+      a8\p a' e d c h? \noBreak
+    a4 c e
+    a,8 h c a h? cis %35
+    d f a d a' fis,
+    g, h? d g h? g,
+    c f g g, g' g,
+    c e g c g' g,
+    d f d' g b! b,, %40
+    c f a c g' e,
+    f a c f a f,
+    e4 cis d \noBreak
+    r a' a,
+    \time 4/4 \revert Staff.TimeSignature.style
+      d8 f'16 e d8 e r d16 cis d8 h \noBreak %45
+    a4 a'8 g f g16 a b8 c
+    f, b, c g a4 r
+    c,8 d b c f g, a b
+    c d e a, d e f g
+    a g f d g a b f %50
+    g4 a r8 f'\fE f, f'
+    e4 e,8 e' d4 d,8 d'
+    c4 c,8 c' b4 b,8 b'
+    a4 a,8 a' g4 g,8 g'
+    f g a4 g8 f e8. d16 %55
+    d4 r d'8\p d, r b'
+    a cis r4 r8 b a e'
+    f d c c b d g,4
+    g gis8 a16 h c8 a e'8.\trill e16
+    e4 r r8 e e,4 %60
+    r2 r8 g g,4
+    R1
+    r2 r8 f''\fE f, f'
+    e4 e,8 e' d4 d,8 d'
+    c4 c,8 c' fis, a b c %65
+    d c b c a4. g8
+    g4 r r8 g'\pE g16 a fis a
+    g8 g, r4 r2
+    R1*2 %70
+    h4 r8 g' g4 r8 c,
+    c4 r8 c b4 r
+    r r8 g'\fE fis4 g
+    R1*3 %76
+    r8 f16\fE e d8 f e e16 d cis8 e
+    d a'16 g f8 a g f e4
+    r8 f a f r g e g
+    a g16 f e4 d r %80
+    R1
+    r2 r4 c8\fE c
+    d c d c d8. d16 c8 a
+    b b c c f, f r4
+    R1*3 %87
+    r4 r8 c'\fE b a16 b d8 d
+    c a' g f16 g a8 f es es,
+    c' b b8. a16 b4 r %90
+    R1*2
+    r4 c\fE b r\fermata \bar "|." %93 finis
+  }
+}

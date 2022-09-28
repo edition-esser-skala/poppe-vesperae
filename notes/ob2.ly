@@ -134,3 +134,63 @@ BeatusOboeII = {
     d1\fermata \bar "|." %62 finis
   }
 }
+
+PueriOboeII = {
+  \relative c' {
+    \clef treble
+    \key b \lydian \time 4/4 \tempoPueri
+    R1*3
+    r2 r8 d'\fE d, d'
+    c c c, c' b b b b %5
+    b4 r8 b a f' f, f'~
+    f d d, d' d16 c d es c8. c16
+    d4 r r2
+    R1
+    r8 a\fE c a r b d b %10
+    r c16 b a c b a b8 b16 a g b a g
+    a8 b16 a g8.\trill a16 a4 r
+    R1*8 %20
+    r8 c\fE c, c' b16 a b c b d c b
+    a g a b a c b a g c b a g8.\trill g16
+    a4 r r2
+    R1*4 %27
+    r4 r8 d\fE e f g a
+    b, g r c a'4. g16 f
+    g4. f16 e f4. e16 d %30
+    e4. d16 c h?4. c8 \noBreak
+    c e, f g c,4 r\fermata \bar "||"
+    \time 3/4 \override Staff.TimeSignature.style = #'single-digit
+      R2.*12 %44
+    \time 4/4 \revert Staff.TimeSignature.style
+      R1*6 %50
+    r2 r8 f'\fE f, f'
+    e4 e,8 e' d4 d,8 d'
+    c4 c,8 c' b4 b8 b
+    a4 a8 a g4 g8 g
+    f g a4 g8 f e8. d16 %55
+    d4 r r2
+    R1*6 %62
+    r2 r8 f'\fE f, f'
+    e4 e,8 e' d4 d,8 d'
+    c4 c,8 c' fis, a b c %65
+    d c b c a4. g8
+    g4 r r2
+    R1*5 %72
+    r4 r8 g'\fE fis4 g
+    R1*3 %76
+    r8 f16\fE e d8 f e e16 d cis8 e
+    d a'16 g f8 a g f e4
+    r8 f a f r g e g
+    a g16 f e4 d r %80
+    R1
+    r2 r4 c8\fE c
+    d c d c d8. d16 c8 a
+    b b c c f, f r4
+    R1*3 %87
+    r4 r8 c'\fE b a16 b d8 d
+    c a' g f16 g a8 f es es,
+    c' b b8. a16 b4 r %90
+    R1*2
+    r4 c\fE b r\fermata \bar "|." %93 finis
+  }
+}
