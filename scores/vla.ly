@@ -1,7 +1,7 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "vla")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,8 +12,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Violino I"
-          \ConfiteborViolinoI
+          \set Staff.instrumentName = "Viola"
+          \ConfiteborViola
         }
       >>
     }
@@ -23,7 +23,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \BeatusViolinoI }
+        \new Staff { \BeatusViola }
       >>
     }
   }
@@ -32,7 +32,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \PueriViolinoI }
+        \new Staff { \PueriViola }
       >>
     }
   }
@@ -41,17 +41,16 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \LaudateViolinoI }
+        \new Staff { \LaudateViola }
       >>
     }
   }
   \bookpart {
     \section "5" "Magnificat"
     \addTocEntry
-    \paper { page-count = #3 }
     \score {
       <<
-        \new Staff { \MagnificatViolinoI }
+        \new Staff { \MagnificatViola }
       >>
     }
   }
