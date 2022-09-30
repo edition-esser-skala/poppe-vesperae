@@ -236,3 +236,113 @@ LaudateOboeI = {
     g8 g g8. fis16 g4 r\fermata \bar "|." %31 finis
   }
 }
+
+MagnificatOboeI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoMagnificat
+    fis'2\fE g4. g8
+    fis2 r4 e
+    fis4. fis8 e2
+    r r4 r8 d16\fE e
+    fis( e) e( d) d( h) h'8~ h h h ais %5
+    h h, h'4~ h8 a16 g fis8 fis
+    e8. e16 e8 fis g4 fis
+    e4. e8 fis2
+    \tempoEtExultavit r8 fis16 fis e e d d cis8 a'4 g8~
+    g fis4 e16 d cis cis d d d d cis cis %10
+    d8 d, r4 r2
+    R1*8 \noBreak %19
+    R1\fermata \bar "||" %20
+    \time 3/4 \tempoQuiaFecit
+      \override Staff.TimeSignature.style = #'single-digit
+      R2. \noBreak
+    a'8\fE a16 h cis8 cis16 d e8 e,
+    a4 r r
+    a8\fE a16 h cis8 cis16^\critnote d e8 e,
+    a r r4 r %25
+    R2.*4
+    r4 r8 e'\fE e8. e16 %30
+    dis cis dis e dis8 dis dis8. dis16
+    cis2 r8 dis16 dis
+    h8 h h cis dis cis16 dis
+    e4 e8 fis e fis16 e
+    cis8. cis16 cis8 h h ais %35
+    h4 r r
+    R2.*2
+    r8 e e e e dis
+    dis4 cis8 e4 dis8 %40
+    dis4 cis r
+    cis'8 cis16 h a8 a gis gis
+    a a e16( d e8) e16( d e8)
+    e16( d e8) a a gis gis
+    a a e16( d e8) e16( d e8) %45
+    e16( d e8) e fis e8. e16
+    e8 e gis a gis fis16 e
+    fis4 e8 e d d
+    cis cis h2 \noBreak
+    cis2 r4\fermata \bar "||" %50
+    \time 4/4 \tempoEtMisericordia
+      \revert Staff.TimeSignature.style
+      R1*9 %59
+    \tempoFecitPotentiam r2 r8 a!\fE a d %60
+    cis8. cis16 cis8 fis d8. cis16 d8 d16 e
+    e8 e r4 r8 cis cis cis
+    h8. h16 h8 e e4. e16 dis
+    e8 e r4 r2
+    R1*5 %69
+    \time 3/2 \tempoDeposuit r2 a4\fE a, a' a, %70
+    a' a, a' a, a' a,
+    g' g, g' g, g' g,
+    fis' d' a fis e a
+    d,8 d fis d d d fis d e e a e \noBreak
+    fis2-! fis-! r\fermata \bar "||" %75
+    \time 4/4 \tempoHumiles R1*2
+    \tempoEsurientes R1*6 %83
+    r2 r8 a\fE a a
+    gis8. gis16 gis4 fis8. fis16 h4 %85
+    e,8. e16 a4 a4. gis8
+    a e cis a a' fis cis a
+    fis' d h fis g' d h g
+    g' e c g g' e cis a
+    fis'4 gis a8 e a,4 %90
+    \tempoEsurientesB a' r16 e a e \tempoEsurientesC fis8 d a d,
+    R1*4 %95
+    r2 a''
+    fis4 d h'4. h8
+    a4 g fis4. fis8
+    e4 fis8 g a4 a
+    a gis a a8 a %100
+    g4 a g4. g8
+    fis4 a a8. a16 g4
+    fis h8 g g4. fis8
+    fis e dis cis h2
+    r r8 fis' g a %105
+    g2 e4 e8 e
+    e2. e4 \noBreak
+    fis1\fermata \bar "||"
+    \time 3/2 \tempoGloria R1.*3 %111
+    a4 fis d a' e a
+    d, a' fis, a' h,, gis''
+    a2. a4 a2
+    R1.*3 %117
+    r2 fis\fE e
+    dis2. dis4 e2~
+    e e dis %120
+    e e e
+    d!2. d4 d d
+    cis2. cis4 cis2
+    e d cis
+    h1 cis2 %125
+    r d d
+    d2. d4 d2
+    d1 d2
+    cis1 d2~
+    d d2. cis4 %130
+    d2 r r
+    R1.*5 %136
+    \time 4/4 \tempoAmen g16.\fE d32 h16. g32 g'16. d32 h16. g32 a'16. fis32 d16. a32 a'16. fis32 d16. a32
+    a'16. d,32 h16. g32  a'16. d,32 h16. g32 h'16. g32 d16. h32 g'16. d32 h16. g32
+    g'8 g fis e fis2\fermata \bar "|." %139 finis
+  }
+}

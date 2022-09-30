@@ -334,3 +334,131 @@ LaudateViolinoII = {
     e8 d a4 h r\fermata \bar "|." %31 finis
   }
 }
+
+MagnificatViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoMagnificat
+    d'2\fE d4. h8
+    a2 r4 cis
+    d4. d8 cis2
+    r2 r4 r8 h\fE
+    ais cis h fis' fis4 cis %5
+    dis2 fis8 fis16 e d8 d
+    cis8. cis16 cis8 d cis4 d~
+    d cis d2
+    \tempoEtExultavit r8 a a gis a cis16 cis d d e e
+    cis8 a d h a g16 fis e8. e16 %10
+    fis4 r8 \mvTr a\pE-\markup \remark "moderato" a4 r8 a
+    e e' r h a a, r4
+    r r8 d' cis16 cis d d e e d cis
+    h8 a16 cis fis8 e16 d cis8 a r4
+    R1*5 \noBreak %19
+    R1\fermata \bar "||" %20
+    \time 3/4 \tempoQuiaFecit
+      \override Staff.TimeSignature.style = #'single-digit
+      R2. \noBreak
+    a8\fE a16 h cis8 cis16 d e8 e,
+    a4 r r
+    a8\fE a16 h cis8 cis16 d e8 e,
+    a a' a a a a %25
+    a a gis gis gis gis
+    gis gis fis fis fis fis
+    fis e e4 r8 dis
+    e[ e\pE e e] e8. dis16
+    e4 r16 e\fE e e e e e e %30
+    dis cis dis e dis cis dis e dis cis dis h
+    cis2 r8 dis
+    h[ h h cis] dis cis16 dis
+    e4 e8 fis e fis16 e
+    cis8. cis16 cis8 h h e16 cis %35
+    dis8[ dis dis e] fis8. fis16
+    e8 h' h16 a h cis a gis a h
+    gis8[ gis gis gis] fis8. fis16
+    e8 e e e e dis
+    cis8. his16 cis8 cis4 cis8 %40
+    cis8. his16 cis4 r
+    e8 e16 d! cis8 cis h h
+    cis16 h cis d cis h cis d h a h e
+    cis h cis d cis h cis d h a h d
+    cis h cis d cis h cis d h a h d %45
+    cis4. a8 a8. gis16
+    a8 cis h dis e e
+    e8. dis16 e8 e d? e
+    e cis h4. h8 \noBreak
+    cis2 r4\fermata \bar "||" %50
+    \time 4/4 \tempoEtMisericordia
+      \revert Staff.TimeSignature.style
+      R1*9 %59
+    \tempoFecitPotentiam r2 r16 fis\fE d a fis d a' d %60
+    cis8 a, r4 r16 d' h fis d fis h gis
+    a8 e' r4 r16 a e cis a e cis e
+    gis8 e' r4 r16 e cis a-\critnote e cis a' dis
+    e8 h' r4 r16 a\pE fis d h e, gis h
+    cis8 e r a, a'4 r8 a, %65
+    \tempoDispersit gis'16 e e e h h h h e e e e e e eis eis
+    fis fis fis fis fis8 r fis16 fis e e dis dis e^\critnote e
+    e e e e e e dis dis e4 r \noBreak
+    d16 d e e h^\critnote h cis cis cis8 a' h, gis'
+    \time 3/2 \tempoDeposuit a,1 e'2\fE \noBreak %70
+    d4. d8 d4 d d2
+    d4 d d2. cis4
+    d2. a4 a a
+    h4. h8 h4 h cis cis \noBreak
+    \parOn d2-\parenthesize-! \parOff d-\parenthesize-! r\fermata \bar "||" %75
+    \time 4/4 \tempoHumiles R1*2
+    \tempoEsurientes R1*6 %83
+    r2 r8 cis\fE cis cis
+    e8. e16 e4 fis8. fis16 fis4 %85
+    e8. e16 e4 d2
+    cis4 r r cis8 cis
+    d4 r r8 d d d
+    e8. e16 e4 r8 a, a a
+    a a d4 cis d~ \noBreak %90
+    \tempoEsurientesB d cis \tempoEsurientesC d2
+    r2 d,16 d' d d fis, d' d d
+    g, d' d d g, d' d d fis, d' d d fis, d' d d
+    a a' a a cis, a' a a a, a' a a \kneeBeam a,, a'' a a
+    a, e' e e a, e' e e a, a' a a fis, a' a a %95
+    \kneeBeam d,, a'' a a \kneeBeam h,, gis'' gis gis cis, a' a a e a a a
+    fis a a a d, fis fis fis d g g g g, g' g g
+    e, g' g g \kneeBeam d, a'' a a a, a' a a d, h' h h
+    cis, a' a a a, a' a a \kneeBeam d,, a'' a a \kneeBeam a,, a'' a a
+    d, a' a a d, gis gis gis cis, a' a a d, a' a a %100
+    h, g' g g a, a' a a h, g' g g g, g' g g
+    fis8 d, r4 r2
+    r8 fis h a g4. fis8
+    fis4 r r8 h cis d
+    cis2 r8 a h cis %105
+    h2 cis4 d~
+    d cis8 h cis4. cis8 \noBreak
+    d1\fermata \bar "||"
+    \time 3/2 \tempoGloria \mvTr d2.\pE-\markup \remark "moderato" d4 e2 \noBreak
+    d h h %110
+    cis2. d4 e2
+    fis2.\fE fis4 e2
+    d d2. d4
+    cis2. d4 e2
+    r a,\pE h %115
+    dis2. fis4 g!2~
+    g fis1
+    gis2 fis\fE e
+    dis2. dis4 e2~
+    e e dis %120
+    e e e
+    d!2. d4 h d
+    e1 e2
+    e fis e
+    e h cis %125
+    r fis fis
+    d2. d4 d2
+    e1 e2
+    cis1 d2~
+    d e1 %130
+    d2 r r
+    R1.*5 %136
+    \time 4/4 \tempoAmen g,16.\fE h32 d16. g32 h,16. d32 g16. h32 d,,16. a'32 fis'16. a32 d,,16. a'32 fis'16. a32
+    d,,16. g32 d'16. g32 d,16. g32 d'16. g32 d,16. h'32 g'16. h32 d,,16. h'32 g'16. h32
+    h,8 h a g a2\fermata \bar "|." %139 finis
+  }
+}
